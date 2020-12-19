@@ -1,7 +1,7 @@
 .Pizza {
-  position: absolute;
+  position: relative;
   margin: auto;
-  top: -350px;
+  top: -73px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -15,9 +15,9 @@
 
 .Pizza:before {
   content: '';
-  position: absolute;
+  position: relative;
   margin: auto;
-  top: 0;
+  top: -73px;
   right: 0;
   bottom: 0;
   left: 0;
