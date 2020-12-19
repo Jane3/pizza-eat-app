@@ -15,9 +15,9 @@
 
 .Pizza:before {
   content: '';
-  position: relative;
+  position: absolute;
   margin: auto;
-  top: -73px;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
@@ -44,9 +44,9 @@
 
   .Pepperoni {
     z-index: 10;
-    position: absolute;
+    position: relative;
     margin: auto;
-    top: -350px;
+    top: -242px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -73,9 +73,9 @@
 
 .Beef {
   z-index: 10;
-  position: absolute;
+  position: relative;
   margin: auto;
-  top: -350px;
+  top: -277px;
   left: 0;
   bottom: 0;
   right: 0;
@@ -99,9 +99,9 @@
 
 .Chicken {
   z-index: 10;
-  position: absolute;
+  position: relative;
   margin: auto;
-  top: -350px;
+  top: -242px;
   left: 0;
   bottom: 0;
   right: 0;
@@ -116,22 +116,13 @@
   -20px -90px 0 0 #b9a446,
   -40px -1px 0 0 #b9a446,
   -30px 23px 0 0 #b9a446;
-  /*
-  -30px -50px 0 0 #b9a446,
-  40px -50px 0 0 #b9a446,
-  -50px 30px 0 0 #b9a446,
-  70px 20px 0 0 #b9a446,
-  -30px 60px 0 0 #b9a446,
-  30px 30px 0 0 #b9a446,
-  40px 88px 0 0 #b9a446,
-  45px -40px 0 0 #b9a446;
-  */
+  
 }
 
 .Cheese {
   content: '';
-  position: absolute;
-  top: -330px;;
+  position: relative;
+  top: -242px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -139,7 +130,6 @@
   height: 20px;
   width: 5px;
   background-color: transparent;
-  z-index:15;
   box-shadow: 
     -80px -10px 0 0 #e0e0e0,
     0 -75px 0 0 #e0e0e0,
